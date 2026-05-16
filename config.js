@@ -1,0 +1,1 @@
+export const BASE_URL = "https://gsthangamaligai-production.up.railway.app";
