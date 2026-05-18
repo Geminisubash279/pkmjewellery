@@ -10,7 +10,7 @@ import { Dimensions } from "react-native";
 const Tab = createBottomTabNavigator();
 const Stack = createNativeStackNavigator();
 const screenWidth = Dimensions.get("window").width;
-const bannerImages = [require("../android/assets/1.jpg"), require("../android/assets/2.jpg"),require("../android/assets/3.jpg"),require("../android/assets/4.jpg"), require("../android/assets/5.jpg")];  
+const bannerImages = [require("../android/assets/P1.png"), require("../android/assets/P2.png"), require("../android/assets/P1.png"), require("../android/assets/P2.png"), require("../android/assets/P1.png")];  
 function HomeScreen({ navigation, route }) {  
   const [name, setName] = useState("");
   const [data, setData] = useState([]);
@@ -257,7 +257,7 @@ function AboutScreen({ route }) {
   return (
     <ScrollView style={{ flex: 1, backgroundColor: "#fff" }} showsVerticalScrollIndicator={false}>
       <View style={{ alignItems: "center" }}>
-        <Image source={require("../android/assets/home.jpg")} style={{ width: "100%", height: 200, resizeMode: "cover" }} />
+        <Image source={require("../android/assets/Logo.jpeg")} style={{ width: "100%", height: 200, resizeMode: "cover" }} />
       </View>
       <View style={{ padding: 20 }}>
         <Text style={{ fontSize: 22, fontWeight: "bold", color: "#6e0501", textAlign: "center", marginBottom: 4 }}>GS THANGAMALIGAI</Text>

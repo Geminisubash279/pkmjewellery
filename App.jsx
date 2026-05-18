@@ -121,7 +121,7 @@ const sendOTP = async () => {
         >
         <Text style={styles.Heading1}>Welcome To</Text>       
         <Image
-          source={require('./android/assets/logo.jpeg')}
+          source={require('./android/assets/Logo.jpeg')}
           style={{ width: 200, height: 200, resizeMode: 'contain' }}
         />
 
