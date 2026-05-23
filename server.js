@@ -259,8 +259,8 @@ app.post("/payment-success", async (req, res) => {
   const Razorpay = require("razorpay");
 
   const razorpay = new Razorpay({
-    key_id: "rzp_test_SW9hikuzpUiqcY",
-    key_secret: "6gd1yOc5cKRYt4y5OW1jDBLd"
+    key_id: "rzp_test_SspJ0Y06xrh9Mn",
+    key_secret: "dSZ4BJVhUXc3Qj51n4xB4o3q"
   });
 
   const {
@@ -350,8 +350,8 @@ app.post("/newschpay-success", async (req, res) => {
   const Razorpay = require("razorpay");
 
   const razorpay = new Razorpay({
-    key_id: "rzp_test_SW9hikuzpUiqcY",
-    key_secret: "6gd1yOc5cKRYt4y5OW1jDBLd"
+    key_id: "rzp_test_SspJ0Y06xrh9Mn",
+    key_secret: "dSZ4BJVhUXc3Qj51n4xB4o3q"
   });
 
   const {

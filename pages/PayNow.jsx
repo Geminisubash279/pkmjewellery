@@ -147,7 +147,7 @@ const openRazorpay = () => {
     description: 'Gold Scheme Payment',
     image: './assets/logo.png', // optional
     currency: 'INR',
-    key: 'rzp_test_SW9hikuzpUiqcY', // 🔴 Replace with your Razorpay Key
+    key: 'rzp_test_SspJ0Y06xrh9Mn',
     amount: parseFloat(amount) * 100, // in paise
     name: 'GS Thanga Maligai',
     prefill: {
