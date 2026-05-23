@@ -13,3 +13,8 @@ build/
 .idea/
 *.iml
 *.hprof
+Gemfile
+Gemfile.lock
+*.podspec
+Podfile
+Podfile.lock
