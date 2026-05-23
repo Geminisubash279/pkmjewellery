@@ -1,0 +1,15 @@
+node_modules/
+android/
+ios/
+assets/
+__tests__/
+.bundle/
+coverage/
+*.log
+*.jsbundle
+.gradle/
+.kotlin/
+build/
+.idea/
+*.iml
+*.hprof
