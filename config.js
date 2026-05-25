@@ -1,1 +1,1 @@
-export const BASE_URL = "pkmjewellery-production.up.railway.app";
+export const BASE_URL = "https://pkmjewellery-production.up.railway.app";
