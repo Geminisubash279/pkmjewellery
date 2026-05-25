@@ -88,7 +88,7 @@ function NewScheme({ navigation, route }) {
       currency: 'INR',
       key: 'rzp_test_SspJ0Y06xrh9Mn',
       amount: parseFloat(amount) * 100, // in paise
-      name: 'GS Thanga Maligai',
+      name: 'PKM Jewellery',
       prefill: {
         email: 'pkmjewellery@gmail.com',
         contact: '9942251355',
@@ -156,7 +156,7 @@ function NewScheme({ navigation, route }) {
           color="#ffffff"
           onPress={() => navigation.goBack()}
         />
-        <Appbar.Content title="GS Thanga Maligai" color="#ffffff" />
+        <Appbar.Content title="PKM Jewellery" color="#ffffff" />
       </Appbar.Header>
     <ScrollView style={{ flex: 1 }} contentContainerStyle={styles.container} keyboardShouldPersistTaps="handled">
 

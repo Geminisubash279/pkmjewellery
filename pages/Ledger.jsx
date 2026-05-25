@@ -89,7 +89,7 @@ function Ledger({ route, navigation }) {
           color="#ffffff"
           onPress={() => navigation.goBack()}
         />
-        <Appbar.Content title="GS Thanga Maligai" color="#ffffff" />
+        <Appbar.Content title="PKM Jewellery" color="#ffffff" />
       </Appbar.Header>
 
       <View style={styles.container}>

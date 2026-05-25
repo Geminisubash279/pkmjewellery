@@ -132,7 +132,7 @@ export default function SchemeDetails({ route, navigation }) {
         {scheme === "gold" && lang === "en" && (
           <View>
             <Text style={styles.title}>Thanga Viruksham Scheme Details</Text>
-            <Text style={styles.body}>The 'Thanga Viruksham' scheme by G.S. Thanga Maligai is a 15-month (450-day) systematic gold savings plan designed to protect your investment from price hikes while offering maximum savings and 0% wastages and making charges on jewellery purchases.</Text>
+            <Text style={styles.body}>The 'Thanga Viruksham' scheme by PKM Jewellery is a 15-month (450-day) systematic gold savings plan designed to protect your investment from price hikes while offering maximum savings and 0% wastages and making charges on jewellery purchases.</Text>
             <View style={styles.table}>
               <View style={styles.tableRow}><Text style={[styles.cell, styles.header]}>PROCESS</Text><Text style={[styles.cell, styles.header]}>STEP 1</Text><Text style={[styles.cell, styles.header]}>STEP 2</Text><Text style={[styles.cell, styles.header]}>STEP 3</Text></View>
               <View style={styles.tableRow}><Text style={styles.cell}>TO JOIN</Text><Text style={styles.cell}>Click "Join Now"</Text><Text style={styles.cell}>Select monthly installment</Text><Text style={styles.cell}>Verify gold weight in e-passbook</Text></View>

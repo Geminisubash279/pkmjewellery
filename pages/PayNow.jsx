@@ -149,7 +149,7 @@ const openRazorpay = () => {
     currency: 'INR',
     key: 'rzp_test_SspJ0Y06xrh9Mn',
     amount: parseFloat(amount) * 100, // in paise
-    name: 'GS Thanga Maligai',
+    name: 'PKM Jewellery',
     prefill: {
       email: 'pkmjewellery@gmail.com',
       contact: '9942251355',
@@ -217,7 +217,7 @@ const openRazorpay = () => {
     <PaperProvider>
       <Appbar.Header style={{ backgroundColor: '#064101' }}>
         <Appbar.Action icon="arrow-left" color="#ffffff" onPress={() => navigation.goBack()} />
-        <Appbar.Content title="GS Thanga Maligai" color="#ffffff" />
+        <Appbar.Content title="PKM Jewellery" color="#ffffff" />
       </Appbar.Header>
 
       <View style={styles.container}>

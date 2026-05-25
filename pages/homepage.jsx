@@ -260,7 +260,7 @@ function AboutScreen({ route }) {
         <Image source={require("../android/assets/Logo.jpeg")} style={{ width: "100%", height: 200, resizeMode: "cover" }} />
       </View>
       <View style={{ padding: 20 }}>
-        <Text style={{ fontSize: 22, fontWeight: "bold", color: "#6e0501", textAlign: "center", marginBottom: 4 }}>GS THANGAMALIGAI</Text>
+        <Text style={{ fontSize: 22, fontWeight: "bold", color: "#6e0501", textAlign: "center", marginBottom: 4 }}>PKM JEWELLERY</Text>
         <Text style={{ fontSize: 13, color: "#888", textAlign: "center", marginBottom: 20 }}>Your Trusted Jewellery Partner</Text>
 
         <View style={{ backgroundColor: "#fff8f8", borderRadius: 12, padding: 16, elevation: 3, marginBottom: 8 }}>
@@ -445,7 +445,7 @@ function Homepage({ navigation, route }) {
     <PaperProvider>
       <Appbar.Header style={{ backgroundColor: '#064101' }}>
         <Appbar.Action icon="home" color="#ffffff" />
-        <Appbar.Content title="GS Thanga Maligai" color="#ffffff" />
+        <Appbar.Content title="PKM Jewellery" color="#ffffff" />
         <Appbar.Action icon="logout" color="#ffffff" onPress={_goBack} />
       </Appbar.Header>
       
