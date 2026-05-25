@@ -265,22 +265,22 @@ function AboutScreen({ route }) {
 
         <View style={{ backgroundColor: "#fff8f8", borderRadius: 12, padding: 16, elevation: 3, marginBottom: 8 }}>
           <Text style={{ fontSize: 13, fontWeight: "bold", color: "#6e0501", marginBottom: 8 }}>📍 Address</Text>
-          <Text style={{ fontSize: 13, color: "#444", lineHeight: 22 }}>867/341, Ranipettai Street,{" "}Opp. New Bus Stand,{" "}Attur - 636102</Text>
+          <Text style={{ fontSize: 13, color: "#444", lineHeight: 22 }}>266, JAWAHAR BAZAAR,{" "}Karur - 639001</Text>
         </View>
 
         <View style={{ backgroundColor: "#fff8f8", borderRadius: 12, padding: 16, elevation: 3, marginBottom: 8 }}>
           <Text style={{ fontSize: 13, fontWeight: "bold", color: "#6e0501", marginBottom: 8 }}>📞 Contact</Text>
-          <Text style={{ fontSize: 14, color: "#0645ad" }} onPress={() => Linking.openURL('tel:9942251355')}>99422 51355</Text>
+          <Text style={{ fontSize: 14, color: "#0645ad" }} onPress={() => Linking.openURL('tel: 9842454921')}>9842454921</Text>
         </View>
 
         <View style={{ backgroundColor: "#fff8f8", borderRadius: 12, padding: 16, elevation: 3, marginBottom: 8 }}>
           <Text style={{ fontSize: 13, fontWeight: "bold", color: "#6e0501", marginBottom: 8 }}>Email</Text>
-          <Text style={{ fontSize: 14, color: "#444" }}>gsthangamaligai@gmail.com</Text>
+          <Text style={{ fontSize: 14, color: "#444" }}>pkmpprasad@gmail.com</Text>
         </View>
 
         <View style={{ backgroundColor: "#fff8f8", borderRadius: 12, padding: 16, elevation: 3 }}>
           <Text style={{ fontSize: 13, fontWeight: "bold", color: "#6e0501", marginBottom: 8 }}>🌐 Website</Text>
-          <Text style={{ fontSize: 14, color: "#0645ad" }} onPress={() => Linking.openURL('https://gsthangamaligai.co.in/')}>gsthangamaligai.co.in</Text>
+          <Text style={{ fontSize: 14, color: "#0645ad" }} onPress={() => Linking.openURL('https://pkmjewellery.co.in/')}>pkmjewellery.co.in</Text>
         </View>
         
       </View>
@@ -503,8 +503,8 @@ function Homepage({ navigation, route }) {
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    alignItems: "center",
-    marginTop : 20,    
+    width: "100%",
+    marginTop: 20,
   },
   ProfileContainer: {
     flex: 1,
@@ -693,7 +693,7 @@ buttonRow:{
 payBtn:{
   flex:1,
   marginRight:5,
-  backgroundColor:"#6e0501",
+  backgroundColor:"#064101",
 },
 
 ledgerBtn:{
@@ -780,7 +780,7 @@ actionRow: {
 },
 
 proceedBtn: {
-  backgroundColor: "#6e0501",
+  backgroundColor: "#064101",
   minWidth: 0,
   paddingHorizontal: 2,
   height: 32,
@@ -791,10 +791,11 @@ proceedBtnText: {
   marginVertical: 0,
 },
 schemeCardHorizontal: {
-  width: screenWidth - 40,   
-  marginRight: 20,
+  width: screenWidth - 20,
+  alignSelf: "center",
+  marginBottom: 15,
   borderRadius: 12,
-  backgroundColor:"#ffffff",  
+  backgroundColor: "#ffffff",
   elevation: 4,
 },
 table: {
@@ -848,8 +849,9 @@ card: {
   priceRow: {
   flexDirection: "row",
   justifyContent: "space-between",
-  margin: 10,
-  backgroundColor: "#f5f5f5", // ✅ ADD THIS
+  marginHorizontal: 10,
+  marginVertical: 10,
+  backgroundColor: "#f5f5f5",
 },
 
 priceCard: {
