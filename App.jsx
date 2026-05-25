@@ -104,8 +104,8 @@ const sendOTP = async () => {
 
   return (
     <PaperProvider>
-      <StatusBar backgroundColor="#660606" barStyle="light-content" />
-      <Appbar.Header style={{ backgroundColor: '#660606' }}>
+      <StatusBar backgroundColor="#064101" barStyle="light-content" />
+      <Appbar.Header style={{ backgroundColor: '#064101' }}>
         <Appbar.Content title="PKM JEWELLERY" color="#ffffff" />
       </Appbar.Header>
 

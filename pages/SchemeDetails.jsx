@@ -21,7 +21,7 @@ export default function SchemeDetails({ route, navigation }) {
 
   return (
     <View style={{ flex: 1, backgroundColor: "#f7f7f7" }}>
-      <Appbar.Header style={{ backgroundColor: "#660606" }}>
+      <Appbar.Header style={{ backgroundColor: "#064101" }}>
         <Appbar.Action icon="arrow-left" color="#ffffff" onPress={() => navigation.goBack()} />
         <Appbar.Content title={titles[scheme] || "Scheme Details"} color="#ffffff" />
       </Appbar.Header>
