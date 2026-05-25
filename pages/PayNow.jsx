@@ -363,7 +363,7 @@ const styles = StyleSheet.create({
   },
   title: {
     fontSize: 22,
-    backgroundColor: "#660606",
+    backgroundColor: "#064101",
     color: "#fff",
     marginBottom: 20,
     padding: 10,
@@ -383,7 +383,7 @@ const styles = StyleSheet.create({
   },
   input: {
     borderWidth:1,
-    backgroundColor:"#9b1e1e",
+    backgroundColor:"#064101",
     color: "#660606",
     marginBottom: 15,
   },

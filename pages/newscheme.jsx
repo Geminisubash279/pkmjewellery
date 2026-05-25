@@ -94,7 +94,7 @@ function NewScheme({ navigation, route }) {
         contact: '9942251355',
         name: customer?.CustomerName || '',
       },
-      theme: { color: '#660606' },
+      theme: { color: '#064101' },
     };
   
     RazorpayCheckout.open(options)
@@ -237,8 +237,8 @@ function NewScheme({ navigation, route }) {
                 key={amt}
                 mode={amount === String(amt) ? "contained" : "outlined"}
                 onPress={() => setAmount(String(amt))}
-                style={{ borderColor: "#660606", backgroundColor: amount === String(amt) ? "#660606" : "#fff" }}
-                labelStyle={{ fontSize: 12, color: amount === String(amt) ? "#fff" : "#660606" }}
+                style={{ borderColor: "#064101", backgroundColor: amount === String(amt) ? "#064101" : "#fff" }}
+                labelStyle={{ fontSize: 12, color: amount === String(amt) ? "#fff" : "#064101" }}
               >
                 ₹{amt.toLocaleString()}
               </Button>
@@ -358,13 +358,13 @@ container: {
     color:"#120b70",
   },
   button: {
-    backgroundColor: "#681905",
+    backgroundColor: "#064101",
     borderRadius: 6,
     color: "#ffffff",
   },
 text: {
     color: '#fff',
-    backgroundColor: '#6e1e1e',
+    backgroundColor: '#064101',
     fontSize: 16,
     width: 150,
     height: 35,

@@ -235,7 +235,7 @@ container: {
 
 headerRow: {
   flexDirection: "row",
-  backgroundColor: "#660606",
+  backgroundColor: "#064101",
   paddingVertical: 6,
 },
 
