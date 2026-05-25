@@ -94,7 +94,7 @@ const silverRotate = silverAnim.interpolate({
   return (
     <ScrollView style={{ flex: 1 }} showsVerticalScrollIndicator={false}>      
       <View style={styles.container}>      
-        <View><Text style={{marginBottom:5, color:"#d10000", fontWeight:"bold", fontSize:16, textAlign:"center", width:"100%"}}>Hello {customer?.CustomerName} </Text></View>
+        <View><Text style={{marginBottom:5, color:"#064101", fontWeight:"bold", fontSize:16, textAlign:"center", width:"100%"}}>Hello {customer?.CustomerName} </Text></View>
           
           <View style={styles.priceRow}>
           
@@ -127,7 +127,7 @@ const silverRotate = silverAnim.interpolate({
         </View>
           
 
-          <Text style={{fontSize:16, fontWeight:"bold", color:"#6e0501", marginBottom:8, textAlign:"center"}}>Our Schemes</Text>
+          <Text style={{fontSize:16, fontWeight:"bold", color:"#064101", marginBottom:8, textAlign:"center"}}>Our Schemes</Text>
             {/* Digi Gold Scheme */}            
             <Card style={styles.schemeCardHorizontal}>
               <Image source={require("../android/assets/P1.png")} style={styles.schemeImage} />
@@ -195,11 +195,11 @@ function ProfileScreen({ route }) {
                   style={{ width: 80, height: 80, borderRadius: 40, marginBottom: 10 }}
                 />
 
-                <Text style={{ fontSize: 18, fontWeight: "bold", color: "#6e0000"  }}>
+                <Text style={{ fontSize: 18, fontWeight: "bold", color: "#064101"  }}>
                   {customer.CustomerName}
                 </Text>
 
-                <Text style={{ fontSize: 14, color: "#777" , color: "#6e0000"  }}>
+                <Text style={{ fontSize: 14, color: "#064101" , color: "#064101"  }}>
                   {customer.Mobile}
                 </Text>
 
@@ -218,8 +218,8 @@ function ProfileScreen({ route }) {
                   borderBottomWidth: 0.5,
                   borderColor: "#ddd"
                 }}>
-                  <Text style={{ color: "#6e0000" }}>Street</Text>
-                  <Text style={{ fontWeight: "bold" , color: "#6e0000" }}>{customer.StreetName}</Text>
+                  <Text style={{ color: "#064101" }}>Street</Text>
+                  <Text style={{ fontWeight: "bold" , color: "#064101" }}>{customer.StreetName}</Text>
                 </View>
 
                 <View style={{
@@ -229,8 +229,8 @@ function ProfileScreen({ route }) {
                   borderBottomWidth: 0.5,
                   borderColor: "#ddd"
                 }}>
-                  <Text style={{ color: "#6e0000"  }}>Area</Text>
-                  <Text style={{ fontWeight: "bold" , color: "#6e0000" }}>{customer.Area}</Text>
+                  <Text style={{ color: "#064101"  }}>Area</Text>
+                  <Text style={{ fontWeight: "bold" , color: "#064101" }}>{customer.Area}</Text>
                 </View>
 
                 <View style={{
@@ -238,8 +238,8 @@ function ProfileScreen({ route }) {
                   justifyContent: "space-between",
                   paddingVertical: 10
                 }}>
-                  <Text style={{ color: "#6e0000" }}>City</Text>
-                  <Text style={{ fontWeight: "bold" , color: "#6e0000" }}>{customer.City}</Text>
+                  <Text style={{ color: "#064101" }}>City</Text>
+                  <Text style={{ fontWeight: "bold" , color: "#064101" }}>{customer.City}</Text>
                 </View>
 
               </Card.Content>
@@ -260,26 +260,26 @@ function AboutScreen({ route }) {
         <Image source={require("../android/assets/Logo.jpeg")} style={{ width: "100%", height: 200, resizeMode: "cover" }} />
       </View>
       <View style={{ padding: 20 }}>
-        <Text style={{ fontSize: 22, fontWeight: "bold", color: "#6e0501", textAlign: "center", marginBottom: 4 }}>PKM JEWELLERY</Text>
+        <Text style={{ fontSize: 22, fontWeight: "bold", color: "#064101", textAlign: "center", marginBottom: 4 }}>PKM JEWELLERY</Text>
         <Text style={{ fontSize: 13, color: "#888", textAlign: "center", marginBottom: 20 }}>Your Trusted Jewellery Partner</Text>
 
         <View style={{ backgroundColor: "#fff8f8", borderRadius: 12, padding: 16, elevation: 3, marginBottom: 8 }}>
-          <Text style={{ fontSize: 13, fontWeight: "bold", color: "#6e0501", marginBottom: 8 }}>📍 Address</Text>
+          <Text style={{ fontSize: 13, fontWeight: "bold", color: "#064101", marginBottom: 8 }}>📍 Address</Text>
           <Text style={{ fontSize: 13, color: "#444", lineHeight: 22 }}>266, JAWAHAR BAZAAR,{" "}Karur - 639001</Text>
         </View>
 
         <View style={{ backgroundColor: "#fff8f8", borderRadius: 12, padding: 16, elevation: 3, marginBottom: 8 }}>
-          <Text style={{ fontSize: 13, fontWeight: "bold", color: "#6e0501", marginBottom: 8 }}>📞 Contact</Text>
+          <Text style={{ fontSize: 13, fontWeight: "bold", color: "#064101", marginBottom: 8 }}>📞 Contact</Text>
           <Text style={{ fontSize: 14, color: "#0645ad" }} onPress={() => Linking.openURL('tel: 9842454921')}>9842454921</Text>
         </View>
 
         <View style={{ backgroundColor: "#fff8f8", borderRadius: 12, padding: 16, elevation: 3, marginBottom: 8 }}>
-          <Text style={{ fontSize: 13, fontWeight: "bold", color: "#6e0501", marginBottom: 8 }}>Email</Text>
+          <Text style={{ fontSize: 13, fontWeight: "bold", color: "#064101", marginBottom: 8 }}>Email</Text>
           <Text style={{ fontSize: 14, color: "#444" }}>pkmpprasad@gmail.com</Text>
         </View>
 
         <View style={{ backgroundColor: "#fff8f8", borderRadius: 12, padding: 16, elevation: 3 }}>
-          <Text style={{ fontSize: 13, fontWeight: "bold", color: "#6e0501", marginBottom: 8 }}>🌐 Website</Text>
+          <Text style={{ fontSize: 13, fontWeight: "bold", color: "#064101", marginBottom: 8 }}>🌐 Website</Text>
           <Text style={{ fontSize: 14, color: "#0645ad" }} onPress={() => Linking.openURL('https://pkmjewellery.co.in/')}>pkmjewellery.co.in</Text>
         </View>
         
@@ -641,21 +641,21 @@ input1:{
     flex: 1,
     fontSize:13,
     fontWeight: "bold",
-    color:"#3411ce",
+    color:"#064101",
     marginBottom: 5,
   },
   valueMonthSch:{
     flex:1,
     fontSize:18,
     fontWeight:"bold",
-    color:"#b90769",
+    color:"#064101",
     marginBottom:5,
   },
   valueMonthWt: {
     flex: 1,
     fontSize:20,
     fontWeight: "bold",
-    color:"#056b1b",
+    color:"#064101",
     marginBottom: 5,
   },
   valueLastTDate: {
@@ -669,7 +669,7 @@ input1:{
     flex: 1,
     fontSize:20,
     fontWeight: "bold",
-    color:"#9c0916",
+    color:"#064101",
     marginBottom: 5,
   },
   recordBox:{
@@ -699,8 +699,8 @@ payBtn:{
 ledgerBtn:{
   flex:1,
   marginLeft:5,
-  color:"#6e0501",
-  borderColor:"#6e0501",
+  color:"#064101",
+  borderColor:"#064101",
 },
 aboutImage: {
   justifyContent:"center",
@@ -737,7 +737,7 @@ schemeTitle: {
   fontSize: 14,
   fontWeight: "bold",
   marginTop:10,
-  color:"#6e0501",
+  color:"#064101",
   marginBottom: 5,
 },
 
@@ -766,7 +766,7 @@ schemeLongTextHead: {
 },
 
 readMore: {
-  color: "#6e0501",
+  color: "#064101",
   marginTop: 10,
   fontWeight: "bold",
 },

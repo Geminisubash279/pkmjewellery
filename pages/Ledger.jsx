@@ -166,8 +166,8 @@ function Ledger({ route, navigation }) {
 
         {/* Total */}
         <View style={{ marginTop: 10, padding: 10, backgroundColor: "#f9f9f9", borderRadius: 8 }}>
-          <Text style={{ color: "#09750e", fontWeight: "bold", marginBottom: 8 }}>Bonus Weight {totalBonus.toFixed(3)} gms</Text>
-          <Text style={{ color: "#660606", marginBottom: 7 }}>*Conditions Apply</Text>
+          <Text style={{ color: "#064101", fontWeight: "bold", marginBottom: 8 }}>Bonus Weight {totalBonus.toFixed(3)} gms</Text>
+          <Text style={{ color: "#064101", marginBottom: 7 }}>*Conditions Apply</Text>
         </View>
 
         <View style={styles.totalRow}>
@@ -214,7 +214,7 @@ container: {
   
   tableRow:{
     flexDirection:"row",
-    color:"#063a52",
+    color:"#064101",
   },
 
   rowEven:{
@@ -255,8 +255,8 @@ tableRow: {
 cell: {
   flex: 1,
   textAlign: "center",
-  color: "#660606",
-  fontSize: 10,
+  color: "#064101",
+  marginBottom: 5,
 },
   
   totalRow:{
@@ -264,20 +264,20 @@ cell: {
     justifyContent:"space-between",
     marginTop:10,
     padding:10,
-    color: "#660606",
+    color: "#064101",
     backgroundColor:"#ddd"
   },
 
   totalText:{
     fontSize:18,
     fontWeight:"bold",
-    color: "#660606",
+    color: "#064101",
   },
 
   totalValue:{
     fontSize:18,
     fontWeight:"bold",
-    color: "#660606",
+    color: "#064101",
   },
   custRow:{
   flexDirection:"row",
@@ -287,14 +287,14 @@ cell: {
 label:{
   width:80,
   fontSize:16,  
-  color:"#6c558a"
+  color:"#064101"
 },
 
 value:{
   flex:1,
   fontSize:16,
   fontWeight:"bold",
-  color:"#0f5025"
+  color:"#064101"
 },
 
 });

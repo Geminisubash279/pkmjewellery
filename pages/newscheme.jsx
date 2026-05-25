@@ -230,7 +230,7 @@ function NewScheme({ navigation, route }) {
 
       {(schemename === "1" || schemename === "3") ? (
         <View style={{ marginHorizontal: 15, marginBottom: 10 }}>
-          <Text style={{ color: "#660606", fontWeight: "bold", marginBottom: 8 }}>Select Amount (₹)</Text>
+          <Text style={{ color: "#064101", fontWeight: "bold", marginBottom: 8 }}>Select Amount (₹)</Text>
           <View style={{ flexDirection: "row", flexWrap: "wrap", gap: 8 }}>
             {[1000, 2000, 3000, 4000, 5000, 10000, 15000, 20000, 25000].map((amt) => (
               <Button
@@ -258,14 +258,14 @@ function NewScheme({ navigation, route }) {
             
       {/* ✅ ADD INPUTS */}
       <View style={styles.inputContainer}>
-        <Text textAlign="center" style={{ color: "#660606", fontWeight: "bold", marginBottom: 5, fontSize:16,textAlign: "center", }}>
+        <Text textAlign="center" style={{ color: "#064101", fontWeight: "bold", marginBottom: 5, fontSize:16,textAlign: "center", }}>
           Accumulated Weight: {total.toFixed(3)}
         </Text>
       </View>
 
       {bonuswt > 0 && (
         <View style={styles.inputContainer}>
-          <Text style={{ color: "#660606", fontWeight: "bold", marginBottom: 5, fontSize: 16, textAlign: "center", }} >
+          <Text style={{ color: "#064101", fontWeight: "bold", marginBottom: 5, fontSize: 16, textAlign: "center", }} >
             Bonus Weight: {bonuswt.toFixed(3)} </Text>
         </View>
       )}
@@ -284,7 +284,7 @@ function NewScheme({ navigation, route }) {
       {/* Loading Animation */}
       {isLoading && (
         <View style={styles.loadingContainer}>
-          <ActivityIndicator size="large" color="#660606" />
+          <ActivityIndicator size="large" color="#064101" />
           <Text style={styles.loadingText}>Processing Payment...</Text>
         </View>
       )}
@@ -314,7 +314,7 @@ container: {
   title: {
     fontSize: 22,
     fontWeight: "bold",
-    color:"#660606",
+    color:"#064101",
     textAlign: "center",
     marginBottom: 10
   },
@@ -336,7 +336,7 @@ container: {
     fontSize: 14,
     fontWeight: "500",
     marginBottom:"10",
-    color:"#8d0052", 
+    color:"#064101", 
     fontWeight:"bold", 
   },
   input: {
@@ -409,8 +409,8 @@ text: {
   loadingText: {
     marginTop: 10,
     fontSize: 16,
-    color: "#660606",
+    color: "#064101",
     fontWeight: "bold",
   },
 
-});
+});;

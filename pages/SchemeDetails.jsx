@@ -209,7 +209,7 @@ const styles = StyleSheet.create({
   },
   body: {
     fontSize: 13,
-    color: "#444",
+    color: "#064101",
     marginBottom: 5,
     lineHeight: 20,
   },

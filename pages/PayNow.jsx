@@ -332,7 +332,7 @@ const openRazorpay = () => {
                   {/* BUTTON */}
                   {isLoading && (
                     <View style={styles.loadingContainer}>
-                      <ActivityIndicator size="large" color="#660606" />
+                      <ActivityIndicator size="large" color="#064101" />
                       <Text style={styles.loadingText}>Processing Payment...</Text>
                     </View>
                   )}
@@ -374,7 +374,7 @@ const styles = StyleSheet.create({
     fontWeight:'bold',
     textAlign:"center",
     marginBottom: 10,
-    color:"#64071f"
+    color:"#064101"
   },
   inputContainer: {
     marginTop: 5,
@@ -390,7 +390,7 @@ const styles = StyleSheet.create({
   totalText: {
     fontSize: 20,
     fontWeight: "bold",
-    color: "#660606",
+    color: "#064101",
     marginTop: 5,
     textAlign: "center"
   },
@@ -420,14 +420,14 @@ halfInput: {
 label:{
   width:80,
   fontSize:14,  
-  color:"#2e0663"
+  color:"#064101"
 },
 
 value:{
   flex:1,
   fontSize:14,
   fontWeight:"bold",
-  color:"#0f5025"
+  color:"#064101"
 },
 loadingContainer: {
   alignItems: "center",
@@ -437,7 +437,7 @@ loadingContainer: {
 loadingText: {
   marginTop: 10,
   fontSize: 16,
-  color: "#660606",
+  color: "#064101",
   fontWeight: "bold",
 },
 });
